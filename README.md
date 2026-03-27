@@ -12,3 +12,6 @@ It freqently leads to small businesses failing to complete back up.
 
 #### Slide 1:
 <img width="950" height="465" alt="Screenshot 2026-03-26 at 8 56 57 PM" src="https://github.com/user-attachments/assets/f76bb0cc-976c-4fa7-9dfc-8c1375a4d64f" />
+
+#### networking basics
+- service based network
