@@ -75,3 +75,21 @@ Types of servers:
   - to respond to broadcast queries from client, it uses DHCP as a standard protocol.
   - when a DHCP client starts up and requires an IP address it broadcasts request to DHCP server to lease address.
   - messages are sent to UDP port 67 and UDP port 68 by the server.
+
+## directory services 1
+Also known as name service, connects names of network to their IP address. It stores, organises and makes info in directory accessible. Used to find, manage and organise common items and network. resources such as volumes, folders, files, printers, users, groups, devices, phone numbers and other objects.
+
+Active directory services - provides a wide range network services such as:
+- kerberos based authentication system
+- single sign-on authentication
+- DNS based naming and other network information
+- a single point of administration and delegation of authority for the network
+
+
+Lightweight directory access protocol (LDAP)
+- Application protocol for querying and momdifing data in TCP/IP based directory services. TCP port 389 is used.
+- TBD
+- TBD
+
+Kerberos
+- 
