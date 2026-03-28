@@ -34,3 +34,12 @@ Types of servers:
 - database server
 - monitoring server
 - threat management server
+
+### selecting server hardware
+- Servers primary function to provide network services. It is designed to be used by multiple users at the same time hence it is typically more powerfull than client PCs.
+- Choosing right harware is important in order to make server less prone to failures.
+- following are main subsystems that make a server:
+-     processor
+-     memory
+-     storage
+-     network
