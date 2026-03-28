@@ -1,4 +1,4 @@
-# windows server fundamentals
+# windows server fundamentals 1
 
 ### Peer - to - Peer network (workgroup)
 - A peer to peer is a network that allows the user to share resources and information among themselves.
@@ -39,7 +39,39 @@ Types of servers:
 - Servers primary function to provide network services. It is designed to be used by multiple users at the same time hence it is typically more powerfull than client PCs.
 - Choosing right harware is important in order to make server less prone to failures.
 - following are main subsystems that make a server:
--     processor
--     memory
--     storage
--     network
+-    processor
+-    memory
+-    storage
+-    network
+
+### virtual servers
+- with virtual machine and virtual server technology multiple operating system can run on single machine.
+- server seperaton is enabled by the ability to run multiple operating systems on single machine, allowing changes on one virtual machine have no impact on other virtual machine.
+- furthermore most of harware remains idle for most of time, it allows for better utilisation.
+- by putting several virtual servers on a powerfull server, you can make better use of hardware while keeping costs low.
+- it can also create windows test environment in a secure, self contained environment.
+
+# windows server fundamentals 2
+
+## naming resolution
+- resolving name to one or more IPs is naming resolution
+- DNS fully qulified domain names (FQDNs) and single label names can be resolved by windows
+- DNS and NetBIOS can both resolbe single label names.
+
+- Two types of names that need to be translated
+  1. domain names / hostnames - which reside in domain name system.
+  2. computer names also called NetBIOS name
+- DNS manager
+  - Type of computer program that manages DNS cluster. DNS data is spread across several servers. Its goals are to reduce human error when editing complex and repeatative DNS data.
+- Universal naming convention (UNC)
+  - method of identifying shared file on computer over a network, without having to specify the storage device it is on.
+  - can be used instead of local naming system.
+- DNS Globalname Zone
+  - DNS database special zone used for single label naming resolution
+  - TBD
+ 
+- DHCP server (dynamic host configuration protocol) 
+  - is a network server tht assigns IP address, default gateway and other network parameters to client devices on regular basis.
+  - to respond to broadcast queries from client, it uses DHCP as a standard protocol.
+  - when a DHCP client starts up and requires an IP address it broadcasts request to DHCP server to lease address.
+  - messages are sent to UDP port 67 and UDP port 68 by the server.
