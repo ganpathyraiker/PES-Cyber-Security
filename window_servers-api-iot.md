@@ -100,3 +100,14 @@ Single Sign On (sso)
 * it allows login once and access multiple related but seperate software systems without logging out.
 * when you logon to windows using active directory, your given token to automatically sign on to other systems.
 
+Active directory services have logical divisions:
+- domain
+  - windows domain is logical grouping of computers and networking resources that serves as a security perimeter.
+  - a domain shares common security and user account information for all computers within the domain in a single active directory database,           allowing centralised administration for all user groups and resources on the network.
+  - for orgs having thousands of user and computers it may be necessary for them to divide them into multiple domains.
+- tree
+  -  multiple domains with a contigious namespace, hirarchical namespace
+  -  if abc.com is primary domain then more than one child domains can be associated with it eg: sales.abc.com and marketing.abc.com
+- forest
+  -  made up of mutiple trees
+  -  
