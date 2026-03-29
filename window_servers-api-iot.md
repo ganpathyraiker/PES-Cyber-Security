@@ -95,3 +95,8 @@ Kerberos
 - computer network authentication protocol that allows hosts to authenticate themselves securely over insure networks.
 - allows mutual authentication  for client and server to confirm each others identity.
 - kerberos messages from protected from evesdropping and replay attacks for security reasons
+
+Single Sign On (sso)
+* it allows login once and access multiple related but seperate software systems without logging out.
+* when you logon to windows using active directory, your given token to automatically sign on to other systems.
+
