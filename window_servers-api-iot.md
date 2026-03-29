@@ -92,4 +92,6 @@ Lightweight directory access protocol (LDAP)
 - TBD
 
 Kerberos
-- 
+- computer network authentication protocol that allows hosts to authenticate themselves securely over insure networks.
+- allows mutual authentication  for client and server to confirm each others identity.
+- kerberos messages from protected from evesdropping and replay attacks for security reasons
