@@ -110,4 +110,13 @@ Active directory services have logical divisions:
   -  if abc.com is primary domain then more than one child domains can be associated with it eg: sales.abc.com and marketing.abc.com
 - forest
   -  made up of mutiple trees
-  -  
+ 
+Domain controller
+- it is a network server centrally manages network access for users, PC servers.
+- maintains a copy of domain's account and security information while also defining domain's boundaries.
+- active directory clients look for active diredctory servers (domain controllers) in the same site as computer when user logs on.
+- a site should have more than one domain controller for fault tolerance.
+
+Global Catalogs
+- aka global catalog server ditrubuted data storage system used for faster searching and stored in domain controller.
+- enabes find and access objects in other domain witin  tree or forest 
