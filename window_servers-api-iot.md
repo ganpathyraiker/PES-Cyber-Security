@@ -119,4 +119,10 @@ Domain controller
 
 Global Catalogs
 - aka global catalog server ditrubuted data storage system used for faster searching and stored in domain controller.
-- enabes find and access objects in other domain witin  tree or forest 
+- enabes find and access objects in other domain witin  tree or forest
+
+User account groups & policy
+- user account allows users to access computer & domain. It enables identity through authentication & authroisation.
+- help audit user by access logs
+-  local user account
+-  domain user account
