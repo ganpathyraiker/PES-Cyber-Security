@@ -124,5 +124,5 @@ Global Catalogs
 User account groups & policy
 - user account allows users to access computer & domain. It enables identity through authentication & authroisation.
 - help audit user by access logs
--  local user account
--  domain user account
+  - local user account
+  - domain user account
