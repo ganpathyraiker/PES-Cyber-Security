@@ -132,8 +132,8 @@ User account groups & policy
 - User profile keeps track of all the network connections made, so that when user logs on comupter all the mapped drives and shared folders can be remembered.
 - three types of user profiles
   - local user profile
-  > one two
-  > three four
+    > User profile saved in local hard drive. Whenever user user a computer, the default settings of that computer gets applied.
   - roaming user profile
+    > User profile saved on network server in a shared folder. User  will see same settings no matter which computer within same domain.
   - mandatory user profile
 
