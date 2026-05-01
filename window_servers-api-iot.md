@@ -124,5 +124,16 @@ Global Catalogs
 User account groups & policy
 - user account allows users to access computer & domain. It enables identity through authentication & authroisation.
 - help audit user by access logs
+- two types:
   - local user account
   - domain user account
+
+- User profile is a collection of folders and data that stores users current desktop environment and application settings. it is associated with each user.
+- User profile keeps track of all the network connections made, so that when user logs on comupter all the mapped drives and shared folders can be remembered.
+- three types of user profiles
+  - local user profile
+  > one two
+  > three four
+  - roaming user profile
+  - mandatory user profile
+
