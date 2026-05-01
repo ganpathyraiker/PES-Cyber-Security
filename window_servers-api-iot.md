@@ -136,4 +136,17 @@ User account groups & policy
   - roaming user profile
     > User profile saved on network server in a shared folder. User  will see same settings no matter which computer within same domain.
   - mandatory user profile
+    > is kind of roaming profile. but the settings defaults to original upon relogin into computer.
+
+Computer account
+- used to authenticate & audit user access
+
+Groups
+- groups users and computers together to assign right permissions.
+- Two types
+  > security groups - grant access to network resources and assign rights, permissions
+  > distribution groups - used for non security purpose like email distrbutions
+
+
+
 
