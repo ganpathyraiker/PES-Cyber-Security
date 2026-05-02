@@ -148,5 +148,25 @@ Groups
   > distribution groups - used for non security purpose like email distrbutions
 
 
+#### Application progamming interface (API)
+Standardised way for systems to exchange data over internet, using common operations like create, read, update and delete. REST stands for REpresentational State Transfer is a stateless and resource oriented architecture style for designing network application over internet. Why stateless - every request is independent and does not rely on the memory of previous interactions.
 
+#### operation technology and internet of things (IOT)
+TBD
 
+### virtualisation
+- segmenting large system
+- run multiple applications
+- dividing large server
+- the cloud advantage
+- administrative cost
+- resource utilisation
+
+#### hypervisor
+> implementing virtual machine on host computer requires hypervisor
+  it is a program helps to run and create virtual machine
+  There are two types of hypervisors
+  - bare metal hypervisor (type 1)
+    > utilises the hardware of host to emulate the VM on it
+  - hosted hypervisor (type 2)
+    > VM running via hosted hypervisor runs like a application
