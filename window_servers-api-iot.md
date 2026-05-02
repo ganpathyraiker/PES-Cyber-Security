@@ -170,3 +170,11 @@ TBD
     > utilises the hardware of host to emulate the VM on it
   - hosted hypervisor (type 2)
     > VM running via hosted hypervisor runs like a application
+  - popular hypervisors
+    - VMware ESXi / vSphere
+    - Microsoft Hyper-V
+    - Citrix XenServer
+    - Oracle VirtualBox
+    - Parellels hypervisor
+    - Redhat enterprise virtualisation
+   
