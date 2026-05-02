@@ -163,9 +163,9 @@ TBD
 - resource utilisation
 
 #### hypervisor
-> implementing virtual machine on host computer requires hypervisor
-  it is a program helps to run and create virtual machine
-  There are two types of hypervisors
+> Implementing virtual machine on host computer requires hypervisor  
+  It is a program helps to run and create virtual machine  
+  There are two types of hypervisors  
   - bare metal hypervisor (type 1)
     > utilises the hardware of host to emulate the VM on it
   - hosted hypervisor (type 2)
