@@ -196,4 +196,4 @@ TBD
   - mesosphere
  
 #### Global security warfare and cybersecurity career
-
+- 
