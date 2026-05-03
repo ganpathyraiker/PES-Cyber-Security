@@ -164,7 +164,7 @@ TBD
 
 #### hypervisor
 > Implementing virtual machine on host computer requires hypervisor  
-  It is a program helps to run and create virtual machine  
+  It is a program helps to run and create virtual machines  
   There are two types of hypervisors  
   - bare metal hypervisor (type 1)
     > utilises the hardware of host to emulate the VM on it
@@ -177,4 +177,23 @@ TBD
     - Oracle VirtualBox
     - Parellels hypervisor
     - Redhat enterprise virtualisation
-   
+
+
+#### Containersation
+- containerisation utilizez isolated user spaces to run appications
+- it is variant of virtualisation
+- the software code and its relevant dependencies are in packaged container
+- each container is an abstraction of the operating system
+- these containers have limited access to physical resources
+- Some of the technologies
+  - docker
+  - kubernates
+  - aws ecs / eks
+  - azure contaier services
+  - redhat openshift
+  - google container engine (GKE)
+  - pivotal cloud foundary
+  - mesosphere
+ 
+#### Global security warfare and cybersecurity career
+
